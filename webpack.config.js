@@ -9,6 +9,9 @@ const Settings = {
         filename: 'main.js',
         path: path.resolve(__dirname, 'out'),
     },
+    stats: {
+        loggingDebug: ['sass-loader'],
+    },
     devServer: {
         static: path.resolve(__dirname, 'out'),
         port: 8080,
