@@ -1,0 +1,7 @@
+$brand-theme-colors: (
+    "brand-primary": #1ec186,
+    "brand-secondary": #3b27ba,
+    "brand-black": #000000,
+    "brand-white": #ffffff,
+) !default;
+$theme-colors: map-merge($theme-colors, $brand-theme-colors);
