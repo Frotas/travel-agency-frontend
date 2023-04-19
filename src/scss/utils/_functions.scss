@@ -1,0 +1,7 @@
+@function get-map-value($mapRef, $keyStr) {
+    @each $key, $value in $mapRef {
+        @if $key == $keyStr {
+            @return $value;
+        }
+    }
+}
